@@ -1,0 +1,420 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 15, 2022, 10:29:33 AM
+    Author     : billg
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: deepskyblue;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: royalblue;
+}
+
+.star i {
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+.star {
+    padding: 10px 0;
+}
+
+/*.navbar {
+    font-size: 20px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active {
+    color: deepskyblue;
+}
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}*/
+
+#bar {
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+
+#bar:hover,
+#bar.active {
+    color: white;
+}
+
+/*Mobile Nac */
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+#home {
+    background-image: url("https://res.cloudinary.com/xha1688/image/upload/v1649688036/imgForWeb/982f781136a9d51ebd46d915ec2e7cda_wdqolw.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span {
+    color: deepskyblue;
+}
+
+#preview .one img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#preview .one .details {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+#preview .one:hover .details {
+    cursor: pointer;
+    background-color: rgb(157, 232, 255, 0.7);
+}
+
+#preview .one .details button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    padding: 2.5px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+}
+
+#preview .one .details button:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#preview .one .details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#featured img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/*PRODUCT*/
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy-btn {
+    background-color: skyblue;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3 all;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.p-name{
+    font-size: 20px;
+    font-weight: 400;
+    color: blue;
+}
+
+#banner {
+    background-image: url("https://res.cloudinary.com/xha1688/image/upload/v1649691875/imgForWeb/62544cc56a4a7_pybqol.jpg");
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h4 {
+    color: black;
+}
+
+#banner h1 {
+    color: black;
+}
+
+#banner button {
+    background-color: plum;
+}
+
+
+/*---------DETAIL-----------*/
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.small-img-col img{
+    border-radius: 8px;
+}
+
+.product{
+    padding-top: 8rem!important;
+}
+
+.sproduct select {
+    display: block;
+    padding: 5px 10px;
+}
+
+.sproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sproduct input:focus {
+    outline: none;
+}
+
+.sproduct img{
+    margin-bottom: 3%;
+}
+
+.wed-info{
+    color: black;
+    display: block;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.wed-info h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#desc-line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    justify-content: center;
+}
+
+.buy-btn {
+    background: plum;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.comment-body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -90px;
+}
+
+.comment-box{
+    border: 1px solid black;
+    padding: auto;
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    color: black;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+.wrapper {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    min-height: 300px;
+}
+
+.wrapper .form .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .form .input-group input,
+.wrapper .form .input-group textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid skyblue;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.wrapper .form .input-group.textarea {
+    resize: none;
+    height: 200px;
+}
+
+.wrapper .form .input-group.textarea textarea {
+    resize: none;
+}
+
+.wrapper .form .input-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.wrapper .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+
+.wrapper .pre-comment .single-item {
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.wrapper .pre-comment .single-item h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.wrapper .pre-comment .single-item a {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper .pre-comment .single-item p {
+    font-size: .9rem;
+    color: #111;
+
+}
+
+.wrapper .pre-comment .single-item button {
+    border-radius: 30px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3 all;
+}
+
+.wrapper .pre-comment .single-item:hover button {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sproduct button {
+    border-radius: 30px
+}

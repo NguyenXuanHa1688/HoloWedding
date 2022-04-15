@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 15, 2022, 2:48:51 PM
+    Author     : billg
+*/
+
+.body1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(login-img/loginBackground.jpg);
+    overflow: hidden;
+}
+
+.container1 {
+    background: #fff;
+    width: 540px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+
+.leftbox {
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 15%;
+    height: 110%;
+    background: skyblue;
+    box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+    border: lem solid #fff;
+}
+
+.rightbox {
+    width: 60%;
+    margin-left: 27%;
+}
+
+nav1 a1 {
+    list-style: none;
+    padding: 35px;
+    color: #fff;
+    font-size: 1.lem;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+nav1 a1:hover {
+    color: black;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+nav1 a1:first-child {
+    margin-top: 7px;
+}
+
+nav1 a1.active {
+    color: black;
+}
+
+.rightbox {
+    width: 60%;
+    margin-left: 27%;
+    padding-top: 5px;
+}
+
+.tabShow {
+    transition: all .5s ease-in;
+    width: 80%;
+    position: absolute;
+}
+
+h1 {
+    color: skyblue;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.input,
+p1 {
+    border: 0;
+    border-bottom: 1px solid skyblue;
+    width: 80%;
+    font-size: .7em;
+    padding: 7px 0;
+    color: #070707;
+    outline: none;
+}
+
+span {
+    font-size: .7em;
+    color: #777;
+}
+
+.btn1 {
+    font-size: 15px;
+    border: 0;
+    text-transform: uppercase;
+    color: #777;
+    background: skyblue;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.tabShow {
+    display: none;
+}
+
+.content-table thead tr {
+    background-color: #1dacd6;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15 px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #1dacd6;
+}
+
+.btn1 {
+    font-size: 15px;
+    border: 0;
+    text-transform: uppercase;
+    color: #777;
+    background: skyblue;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+}
+
+.btn1:hover {
+    background-color: #4467C4;
+    color: white;
+}
+
+.btn1:active {
+    background-color: #4467C4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#coupon {
+    display: none;
+}
+
+.list-group
+{
+    width: 350px;
+}
